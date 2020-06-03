@@ -1,0 +1,7 @@
+function isTouching(object1,object2){
+ if(wall.x-bullet.x<(wall.width+bullet.width)/2){
+     return true;
+ }else{
+ return false;
+}
+}
